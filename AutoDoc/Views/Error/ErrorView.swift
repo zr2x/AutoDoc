@@ -53,7 +53,7 @@ final class ErrorView: UIView {
             errorTextLabel.topAnchor.constraint(equalTo: topAnchor),
             retryButton.topAnchor.constraint(equalTo: errorTextLabel.bottomAnchor, constant: 8),
             retryButton.centerXAnchor.constraint(equalTo: centerXAnchor),
-            retryButton.bottomAnchor.constraint(equalTo: bottomAnchor)
+            retryButton.widthAnchor.constraint(equalToConstant: 100)
         ])
     }
     
